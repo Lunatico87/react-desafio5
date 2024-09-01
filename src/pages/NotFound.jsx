@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import sadPizza from "../assets/img/sad-pizza.jpg";
 
 const NotFound = () => {
   return (
@@ -17,7 +18,7 @@ const NotFound = () => {
             >
               Volver a Home
             </Link>
-          <img className="d-flex mx-auto mx-300" src="../src/assets/img/sad-pizza.jpg" alt="404" />
+          <img className="d-flex mx-auto mx-300" src={sadPizza} alt="404" />
         </main>
       </div>
     </div>
